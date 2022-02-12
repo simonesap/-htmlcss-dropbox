@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*----------Utility----------*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.hero{
+    height: calc(70vh - 80px);
+    background-image: url('');
+    background-position: center;
+    background-size: cover;
+}
+.upper{
+    text-transform: uppercase;
+}
