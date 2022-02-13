@@ -6,6 +6,17 @@
 html{
     scroll-behavior: smooth;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgba(180,208,231,255);
+}
+.head{
+   
+    background-color: white;
+}
 /*----------Utility----------*/
 .container{
     width: 80%;
@@ -16,12 +27,107 @@ html{
     display: table;
     clear: both;
 }
+.logo{
+    line-height: 50px;
+    vertical-align: middle;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    display: inline-block;
+    float: left;
+}
+.upper{
+    text-transform: uppercase;
+}
+.active{
+    color: black;
+}
+.start{
+    padding: 20%;
+    background-color: blue;
+    color: white;
+}
+.start-hero{
+    padding: 2%;
+    text-decoration-line: none;
+    font-weight: bold;
+    float: left;
+    margin-right: 50%;
+}
+.ul-left,
+.ul-right, ul li a{
+    text-decoration-line: none;
+    font-weight: bold;
+}
+.ul-left,
+.ul-right, ul li{
+    display: inline-block;
+    margin-left: 5%;
+    list-style-type: none;
+}
+.ul-left{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-left: 0%;
+    line-height: 10vh;
+    vertical-align: middle;
+}
+.ul-right{
+    float: right;
+    display: inline-block;
+    width: 35%;
+    line-height: 10vh;
+    vertical-align: middle;
+    margin-right: 0%;
+}
+.head nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*----------Hero----------*/
 .hero{
-    height: calc(70vh - 80px);
+    height: calc(100vh - 72.44px);
     background-image: url('');
     background-position: center;
     background-size: cover;
 }
-.upper{
-    text-transform: uppercase;
+.text{
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+.text h2{
+    font-size: 4.5em;
+    margin-top: 8%;
+}
+.hero .row .text{
+    width: 40%;
+    margin-top: 5%;
+}
+.hero .row .text p{
+    font-size: 1.5em;
+    margin-bottom: 10%;
+    text-align: left;
+}
+.hero .row .text h4{
+    margin-top: 3.5%;
+    margin-left: 0%;
+    float: left;
+    margin-right: 50%;
+}
+.fa-arrow-down{
+    float: left;
+    font-size: 4em;
+    color: black;
+    margin-top: 10%;
+}
+.pic{
+    display: inline-block;
+    padding: 0%;
+    margin-left: 0%;
+    
+.pic img{
+    display: inline-block;
+    width: 20%;
 }
