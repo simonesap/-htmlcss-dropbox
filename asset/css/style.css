@@ -54,6 +54,9 @@ header{
 .w-b{
     color: black;
     background-color: white;
+    border: 1px solid black;
+    padding: 2%;
+    width: 40%;
 }
 .start{
     padding: 20%;
@@ -323,5 +326,33 @@ header{
 .ul-down-sec-1 ul li::before{
     content: url('f00c');
 }
-
+/*--------Sec-2--------*/
+.sec-2{
+    margin-top: 10%;
+}
+.sec-2 .row .col-1{
+    width: 50%;
+    float: left;
+}
+.sec-2 .row .col-2{
+    float: right;
+    width: 40%;
+}
+.sec-2 .row .col-2 h3{
+    font-weight: bold;
+    margin-bottom: 10%;
+    font-size: 1.6em;
+}
+.sec-2 .row .col-2 p{
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+.w-b a{
+    text-decoration-line: none;
+    color: black;
+}
+.sec-2 .row .col-1 img{
+    max-width: 100%;
+    height: auto;
+}
 
