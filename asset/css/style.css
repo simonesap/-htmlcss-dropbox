@@ -386,3 +386,73 @@ header{
 .sec-3 .row .column h3{
     margin-bottom: 10%;
 }
+/*--------Sec-4--------*/
+.sec-4 .container-2 h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 3%;
+} 
+.sec-4{
+    height: 50vh;
+}
+.sec-4 .row{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
+.sec-4 .row-1{
+    float: left;
+}
+.sec-4 .row-3{
+    float: right;
+}
+.sec-4 .row-2{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.sec-4 .row .column{
+    width: 50%;
+    height: 50%;
+}
+.sec-4 .col-1{
+    float: left;
+}
+.sec-4 .col-2{
+    float: left;
+    margin-top: 0%;
+}
+.sec-4 .col-3{
+    float: left;
+}
+.sec-4 .col-4{
+    float: left;
+}
+
+.m-t-4{
+    margin-top: 4%;
+}
+/*--------Utility-Background-Color--------*/
+.bg-g{
+    background-color: lightgreen;
+    border: inset solid 3px rgba(144, 238, 144, 0.479);
+}
+.bg-br{
+    background-color: rgb(82, 52, 52);
+}
+.bg-lb{
+    background-color: rgba(32, 178, 171, 0.973);
+}
+.bg-r{
+    background-color: red;
+}
+.bg-b{
+    background-color: blue;
+}
+.bg-y{
+    background-color: yellow;
+}
+.bg-gr{
+    background-color: rgba(128, 128, 128, 0.568);
+}
