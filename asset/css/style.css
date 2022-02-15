@@ -98,6 +98,12 @@ header{
 .text{
     text-align: left;
 }
+.mt-5{
+    margin-top: 10%;
+}
+.mb-10{
+    margin-bottom: 10%;
+}
 /*----------Label----------*/
 .start{
     padding: 20%;
@@ -122,14 +128,18 @@ header{
 }
 .start-main-2{
     padding: 1%;
-    width: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
     background-color: blue;
     color: white;
     float: right;
     display: inline-block;
+    margin-top: 2%;
+    margin-right: 2%;
 }
 .start-main-2 span{
-    font-size: 0.8em;
+    font-size: 0.9em;
+    text-align: center;
 }
 .small-b{
     display: block;
@@ -192,7 +202,7 @@ header{
     margin-left: 20;
     margin-right: 20;
 }
-.sec-1 div h2{
+.sec-1 h2{
     text-align: left;
     font-size: 2em;
 }
@@ -259,80 +269,182 @@ header{
     height: 20%;
     border-bottom: 1px solid rgba(128, 128, 128, 0.568);
     line-height: 300%;
+    text-align: center;
 }
 
 .sec-1 .col-1 .row{
     margin-top: 5%;
     padding-bottom: 5%;
     border-bottom: 1px solid rgba(128, 128, 128, 0.568);
+    text-align: center;
 }
 .sec-1 .col-2 .row{
     margin-top: 5%;
     padding-bottom: 5%;
     border-bottom: 1px solid rgba(128, 128, 128, 0.568);
+    text-align: center;
 }
 .sec-1 .col-3 .row{
     margin-top: 5%;
     padding-bottom: 5%;
     border-bottom: 1px solid rgba(128, 128, 128, 0.568);
+    text-align: center;
 }
 .row-2{
     width: 80%;
     margin: auto;
 }
+/*--------Col-1--------*/
 .sec-1 .row .col-1 .row-2 h2{
     margin-top: 15%;
-    text-align: left;
 }
 .sec-1 .row .col-1 .row-2 h3{
     margin-top: 5%;
-    text-align: left;
+    margin-bottom: 8%;
 }
-.sec-1 .row .col-1 .row-2 p{
-    margin-top: 5%;
-    text-align: left;
-}
-.sec-1 .row .col-1 .row-2 div ul{
+.sec-1 .row .col-1 .row-2 .ul-top-sec-1 ul{
     display: inline-block;
     margin-top: 25%;
-    margin-left: -3.5%;
 }
-.sec-1 .row .col-1 .row-2 div ul li{
+.sec-1 .row .col-1 .row-2 .ul-top-sec-1 ul li{
     display: inline-block;
-    margin-top: 5%;
+    margin-top: 15%;
 }
-.sec-1 .row .col-1 .row-2 div ul li i{
-    display: inline-block;
+.sec-1 .row .col-1 .row-2 .ul-top-sec-1 ul li i{
+    display: inline;
     text-align: left;
+}
+/*--------Col-2--------*/
+.sec-1 .row .col-2 .row-2 h2{
+    margin-top: 15%;
+}
+.sec-1 .row .col-2 .row-2 h3{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.sec-1 .row .col-2 .row-2 .ul-top-sec-1 ul{
+    display: inline-block;
+    margin-top: 15%;
+}
+.sec-1 .row .col-2 .row-2 .ul-top-sec-1 ul li{
+    display: inline-block;
+    margin-top: 15%;
+}
+.sec-1 .row .col-2 .row-2 .ul-top-sec-1 ul li i{
+    display: inline;
+    text-align: left;
+}
+/*--------Col-3--------*/
+.sec-1 .row .col-3 .row-2 h2{
+    margin-top: 15%;
+}
+.sec-1 .row .col-3 .row-2 h3{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.sec-1 .row .col-3 .row-2 .ul-top-sec-1 ul{
+    display: inline-block;
+    margin-top: 15%;
+}
+.sec-1 .row .col-3 .row-2 .ul-top-sec-1 ul li{
+    display: inline-block;
+    margin-top: 15%;
+}
+.sec-1 .row .col-3 .row-2 .ul-top-sec-1 ul li i{
+    display: inline;
+    text-align: left;
+}
+/*--------Col-1--------*/
+.sec-1 .row .col-1 .row-2 .ul-top-sec-1 ul li .first{
+    display: inline;
+    float: left;
+}
+.sec-1 .row .col-1 .row-2 .ul-top-sec-1 ul li .second{
+    display: inline;
+    float: left;
+    width: 80%;
+    margin-left: 30%;
+    margin-top: -28%;
+}
+.second-2{
+    margin-top: -1%;
+    margin-left: 10%;
 }
 .sec-1 .row .col-1 .row-2 div ul li h5{
-    display: inline-block;
-    text-align: left;
+    display: inline;
 }
 .sec-1 .row .col-1 .row-2 h4{
     margin-top: 25%;
 }
+/*--------Col-2--------*/
+.sec-1 .row .col-2 .row-2 .ul-top-sec-1 ul li .first{
+    display: inline;
+    float: left;
+}
+.sec-1 .row .col-2 .row-2 .ul-top-sec-1 ul li .second{
+    display: inline;
+    float: left;
+    width: 80%;
+    margin-left: 30%;
+    margin-top: -28%;
+}
+.sec-1 .row .col-2 .row-2 div ul li h5{
+    display: inline;
+}
+.sec-1 .row .col-2 .row-2 h4{
+    margin-top: 25%;
+}
+/*--------Col-3--------*/
+.sec-1 .row .col-3 .row-2 .ul-top-sec-1 ul li .first{
+    display: inline;
+    float: left;
+}
+.sec-1 .row .col-3 .row-2 .ul-top-sec-1 ul li .second{
+    display: inline;
+    float: left;
+    width: 80%;
+    margin-left: 30%;
+    margin-top: -28%;
+}
+.sec-1 .row .col-3 .row-2 div ul li h5{
+    display: inline;
+}
+.sec-1 .row .col-3 .row-2 h4{
+    margin-top: 25%;
+}
+/*--------Row--------*/
 .row-3{
-    width: 93%;
-    margin: auto;
-    margin-top: 3%;
-    display: inline-block;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    display: inline;
+    width: 60%;
 }
 .row-3 h5{
-    margin-top: 1%;
-    width: 30%;
+    margin-top: 2%;
+   
 }
 .row-3 p{
     margin-top: 4%;
     font-size: 0.8em;
-    width: 80%;
+    width: 120%;
 }
+/*--------Ul-down--------*/
 .ul-down-sec-1{
     font-size: 0.8em;
     text-align: left;
 }
-.ul-down-sec-1 ul li::before{
-    content: url('f00c');
+.ul-down-sec-1 ul li{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: left;
+}
+.ul-down-sec-1 ul li i{
+    margin-left: -10%;
+    text-align: left;
+    color: blue;
+    font-weight: bold;
 }
 /*--------Sec-2--------*/
 .sec-2{
